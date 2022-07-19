@@ -1,0 +1,103 @@
+#NavBar{
+    height: 10vh;
+    width: 100%;
+    margin: auto;
+    background-color:#2455f4;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.logo{
+    margin-right: 6px;
+    margin-top: 1vh;
+    margin-left: 10%;
+    font-weight: 600;
+}
+#log02{
+    text-decoration: none;
+}
+#logo2:hover{
+    text-decoration: underline white;
+}
+.logo>img{
+    width: 95px;
+    height: 3vh;
+}
+#searchBar{
+    width: 40%;
+    }
+#searchBar>input{
+    outline: none;
+    width: 80%;
+    padding: 7px 10px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+#search{
+    height: 14vh;
+    background-color: white;
+}
+.fa-magnifying-glass{
+    margin: 0;
+    color:#2455f4;
+    padding: 1.3vh 12px 1.8vh 2px;
+    background-color: white;
+    font-size: 17px;
+    /* font-weight: bolder; */
+}
+#menu{
+    display: flex;
+    width: 35%;
+    justify-content:space-evenly;
+     margin-left: -6rem;
+     align-items: center; 
+     margin-right: 5%;
+     font-size: .5rem;
+     
+}
+#menu>div{
+    color: white;
+    font-size: large;
+    padding-left: 2%;
+}
+#menu>div>a{
+    text-decoration: none;
+    color: white;
+    }
+#div1{
+    background-color: white;
+    width: 80px;
+    text-align: center;
+    padding:.2rem;
+    cursor: pointer;
+    position: relative;
+}
+#more{
+    position: relative;
+}
+.submenu>ul{
+    position: absolute;
+    z-index: 13;
+    top:130%;
+    height: max-content;
+    width: 15rem;
+    color: #2455f4;
+    padding: 10px 20px;
+    list-style: none;
+    background-color: #ffffff;
+    box-shadow: 0 20 30 0 rgba(0,0,0,.5);
+    display: none;
+}
+
+#div1:hover > div > ul {
+    display: block;
+}
+#more:hover > div >ul {
+    display: block;
+    position: absolute;
+}
+
+.fa-chevron-down{
+    font-size: small;
+}

@@ -1,0 +1,91 @@
+#deal {
+    display: flex;
+    width: 79vw;
+    height: 8vh;
+    justify-content: space-between;
+    padding: 1%;
+    margin-left: 5px;
+    margin-top: 5px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#dcontainer {
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    background-color: rgb(212, 208, 208);
+}
+
+#slider {
+    display: flex;
+    width: 99%;
+    height: 45vh;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.item {
+    width: 100%;
+    height: 50vh;
+    padding: 2px;
+    text-align: center;
+    background-color: white;
+}
+
+.item>img {
+    width: 150px;
+    height: 150px;
+}
+
+.owl-theme .owl-nav {
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 8rem;
+
+}
+
+.owl-theme .owl-prev,
+.owl-theme .owl-next {
+    position: absolute;
+}
+
+.owl-theme .owl-next {
+    margin-left: 95%;
+}
+
+.owl-theme .owl-prev {
+    margin-right: 99%;
+}
+
+.owl-next>span {
+    background: rgba(255, 250, 250, 0.658);
+    padding: 10px;
+}
+
+.owl-next:hover>span {
+    background: white;
+}
+
+.owl-prev>span {
+    background: rgba(255, 250, 250, 0.658);
+    padding: 10px;
+}
+
+.owl-prev:hover>span {
+    background: white;
+}
+
+#ad{
+    width: 20%;
+    min-width: 15%;
+    height: 50vh;
+    margin-top: 5px;
+}
+
+#ad>img {
+    width: 25rem;
+    min-width: 20rem;
+    height: 30rem;
+}
